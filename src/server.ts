@@ -1,5 +1,8 @@
 import express from 'express';
 import routes from './routes';
+import 'reflect-metadata';
+
+import './databases';
 
 const PORT = 3333;
 
