@@ -20,8 +20,11 @@ class User {
   @Column()
   password: string;
 
+  @Column()
+  avatar: string;
+
   @CreateDateColumn()
-  create_at: Date;
+  created_at: Date;
 
   @UpdateDateColumn()
   updated_at: Date;
